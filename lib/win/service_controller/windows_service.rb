@@ -54,7 +54,7 @@ module Win
 
       def login_command
         #net use \\ADDRESS\IPC$ PASSWORD /user:USERWITHDOMAIN
-        "net use \\\\#{@host}\\IPC$ #{@password} /user:#{@host}\\#{@user}"
+        "net use \\\\#{@host}\\IPC$ #{@password} /user:#{@user}"
       end
 
       def logon
