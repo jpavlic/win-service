@@ -18,7 +18,7 @@ include Config
 
 Hoe.spec 'win-service' do
   self.name         = 'win-service'
-  self.version      = '0.1.0'
+  self.version      = '0.1.1'
   self.author       = 'James T. Pavlic'
   self.email        = 'james_pavlic@hotmail.com'
   self.summary      = 'An interface for MS Windows services'
@@ -59,7 +59,7 @@ desc "Install the win-service gem"
 task :install do
   spec = Gem::Specification.new do |gem|
     gem.name         = 'win-service'
-    gem.version      = '0.1.0'
+    gem.version      = '0.1.1'
     gem.authors      = ['James T. Pavlic']
     gem.email        = 'james_pavlic@hotmail.com'
     gem.license      = 'The MIT License'

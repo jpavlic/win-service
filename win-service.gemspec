@@ -2,7 +2,7 @@ require 'rubygems'
 
 spec = Gem::Specification.new do |gem|
    gem.name         = 'win-service'
-   gem.version      = '0.1.0'
+   gem.version      = '0.1.1'
    gem.authors      = ['James T. Pavlic']
    gem.email        = 'james_pavlic@hotmail.com'
    gem.license      = 'The MIT License'
