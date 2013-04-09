@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 RSpec.configure do |config|
-  if Config::CONFIG['host_os'] =~ /darwin/
+  if RbConfig::CONFIG['host_os'] =~ /darwin/
     config.filter_run_excluding :windows => true
   end
 end
